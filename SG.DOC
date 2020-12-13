@@ -1,0 +1,274 @@
+        Stained Glass, version 910116, now with (ooh, ahh) tertiary colors!
+
+        Stained Glass is distributed using the classical shareware model.  As
+usual, you are encouraged to make and give away (not sell) as many copies of
+the game as you wish, provided that you include the files SG.BAS, SG.EXE,
+SG.DOC, JUDYBEST.SAV, and KENTBEST.SAV.  You are furthermore encouraged to use
+whatever archiving or compression program you like, as long as you include all
+of the files named above.
+        If you like Stained Glass and would like to lend your support to
+high-quality, non-copy-protected, user-supported software (and documentation
+with way too many hyphens and parentheses per sentence) we ask that you send
+ten US dollars to:
+
+        Brewster and Brewster
+        2152 Santa Cruz Avenue
+        Santa Clara, CA  95051
+
+        Any questions?  Please feel free to call us at (408) 296-5529, after
+six o'clock p.m., Pacific time, or drop us a line via E-mail at 
+kent@speculations.com.  While the money is VERY important to us -- it lets us 
+keep writing this stuff, after all -- we would love to hear from you whether
+you are a registered user or not.
+
+                      ***  Ye Operating Instructions ***
+
+        Stained Glass requires a PC or clone, 256k RAM, one floppy disk drive,
+and DOS version 2.1 or later.  The use of a color monitor and adapter is
+strongly suggested but not required -- Stained Glass is playable (but not as
+much fun) in monochrome.
+        To play from the floppy disk, put your DOS boot disk into the floppy
+drive and turn on the computer.  After the A> prompt appears, replace the DOS
+disk with the Stained Glass disk and enter SG.  If you have a hard drive, we
+suggest that you make a separate subdirectory, C:\SG\>, for instance, and copy
+over all the files on the disk.  Once you've done that, enter SG just as you
+would when running from the floppy drive. 
+        Okay.  Our title page should be up and running, with a bunch of
+different colored rectangles jumping and flipping around the screen.  Press
+the space bar to step through the demo.
+        The object of the game should become clear at once:  clear the board
+of all panes except one, using as few moves as possible. When you get tired
+of the demo -- it is kind of boring, after a while -- press Esc to get on with
+the show.
+        At this point, those of you who never read the instructions can put
+them away and learn the game from playing around.  It really IS that simple.
+        The rest of you should now be looking at an entire boardful of colored
+panes of glass.  Your score appears on the left, your options on the right,
+and your instructions on the bottom.  BEFORE YOU DO ANYTHING ELSE, you should
+take a look at examples of legal moves, by pressing E.
+        When you make a move in Stained Glass, three spaces on the board are
+affected.  The first space goes black, as you pick up the pane of glass that
+was sitting there and pass it over the second space.  The second space has the
+color of the first space SUBTRACTED from it -- if you jump red over orange,
+for instance, yellow is left in the middle.  The third space has the color of
+the first space ADDED to it -- if red lands on blue, the result is violet.
+        The only screwy, nonintuitive thing about this set of rules is this:
+ANY primary color -- red, blue, or yellow -- jumping over ANY OTHER primary
+color leaves a blank space.  We had to include this rule or the game would be
+impossible to play.
+        A legal move in Stained Glass can have elements of four categories:
+        The first and simplest is that of any color jumping over itself and
+landing on a blank space.  The first pane disappears.  The second pane also
+disappears, because any color minus itself leaves an empty space.  The third
+pane -- the blank spot -- becomes the color of the first.
+        The second move category is that of any color jumping over itself and
+landing on itself.  The first pane, as always, disappears.  The second pane
+also goes away -- as in rule one, any color minus itself leaves a blank space.
+The third pane STAYS THE SAME.  Red plus red equals red.
+        The third move element is that of a primary color jumping over a
+secondary color.  The primary color is subtracted from the secondary color,
+leaving the result in the middle space.   If you jump a blue pane over a green
+pane, the result is a yellow pane left in the middle.  To be a legal move, the
+second pane must contain the color of the first -- you cannot, for instance,
+jump a yellow pane over a violet pane, because violet contains no yellow.
+        The fourth move element is the combination of two colors at the
+destination space.  You learned this stuff in kindergarten -- blue and yellow
+makes green, red and blue makes violet, and yellow and red makes orange.
+        When you combine all three colors at the destination space, you get
+a tertiary pane, a white one.  You can do this by either jumping a secondary
+over itself and landing on the correct primary OR by jumping a primary onto
+the correct secondary.  Don't worry about which colors can legally land on
+other colors; the game will show you all legal moves when you pick a pane.
+        When you jump a primary or secondary color over a tertiary pane, you
+subtract the jumping color, leaving behind a clashing pane.  Red over white
+leaves green, yellow over white leaves violet, and blue over white leaves
+orange.
+        The only way you can jump a white pane is over another white pane,
+landing on 1) still another white pane or 2) a blank space.
+
+        Whew!  Got all that?
+        The last four move elements can combine to provide complex results; if
+you jump a red pane over an orange pane to land on a blue pane, the red pane
+disappears, the orange pane turns yellow (orange minus red) and the blue pane
+turns violet (blue plus red).
+        After the game shows you a bunch of examples, the original randomized
+screen will reappear.
+        You are now ready to go.  To move, use the arrow keys to put the
+cursor -- the solid white square -- on the pane you would like to move.  If
+you can't move that pane, Stained Glass will make our patented "Thock!" error
+noise and tell you that the pane has no legal moves.  Press any key to clear
+the error message and continue.
+        If you've chosen the wrong pane but haven't moved it yet, press Esc
+to pick a different one.
+        After you have chosen a piece that can move, Stained Glass will high-
+light the chosen piece and cause all of the legal destination squares to flash.
+To position the cursor over one of the possible moves, press the appropriate
+arrow key.  You will notice that the cursor now moves in two-square increments;
+we did this to minimize the number of keystrokes needed per move.  You will
+also notice that the "help" options go away while you are picking your
+destination; don't worry -- they will be right back after you complete your
+move.  If you try to select a non-flashing pane, Stained Glass will just sit
+there.  Again, if you want to move another pane, press Esc to abort the move.
+        If you find you've made a mistake after your move is complete, press B
+to back up one move.  Stained Glass keeps track of all your moves -- if you
+wish, you can back up all the way to the beginning of the game.  You can even
+back up past the point where you loaded a saved game.
+        If you REALLY screw up, press R to rewind to the start of the same
+game.  Stained Glass will rewind your original game to its starting point and
+set both the move and backup counters to zero.
+        If you are called to bed, work, or dinner and would like to save your
+marriage, job, or game before turning off the computer, press S.  The Save
+Game message will come up and ask you for a name (8 character maximum) for
+your game.  The default name is MYGAME until you enter a different one; once
+you start entering names during a game session, the last name you enter will be
+the default that comes up next time you load or save a game.  If you try to
+save a game under a name that already exists, Stained Glass will warn you and
+ask whether you really want to do it.
+        The default information above also goes for the Load option; to load
+a previously saved game, press L and enter the name of the game.
+        Stained Glass handles three types of disk I/O errors -- it was getting
+way too big for anything more complicated. Handled errors are the Door Open
+error (also triggered by a write-protected floppy), the Disk Full error, and
+the Oh My God error, where your disk is too trashed to read or write.  Needless
+to say, if you get any of these on your hard drive it is probably time to stop
+playing games.  I/O errors should be the only time you ever hear the annoying
+system beep -- if you ever get a cryptic "Error XX in program ZZ" message, we'd
+like to hear about it.
+        If you are playing this game where you will get fired, yelled at, or
+beaten with rubber hoses if caught, remember the panic button.  When your boss,
+teacher, or big brother goes by, press P to instantly zap out to Penix, our own
+shallow mockery of DOS.  To return to Stained Glass from Penix, enter SG.  All
+other commands, except for DIR and <Enter> alone, will result in the ever-
+popular "Bad command or file name" message.
+        The game ends when you run out of legal moves.  If you only have one
+pane left on the board at this point, you win!  Congratulations!  You're now
+one of the elite Glassmasters, and now you know as much as you did before.
+You can save your game here if you want.  Stained Glass will then start over.
+        If, on the other hand, you have more than one tile left when you run
+out of legal moves, Stained Glass will print a polite message informing you
+that you are stuck.  From there, you can load a saved game, back up, rewind to
+the beginning, start a new game, or quit.
+        If you have more than one tile left, can't see any legal moves, and the
+"Stuck" message isn't on the screen, press H for a hint.  Stained Glass will
+run through all of your remaining moves, starting at the upper left corner and
+going through each row, showing a different one each time you press H.  Press
+any other key to return to the game.
+
+                            *** Strategy ***
+
+        You will find that you can remove one, two, three, four, or six panes
+with a single jump.  A primary color jumping to an empty space removes
+a single pane.  A primary color jumping to itself removes two panes.  A
+secondary color jumping to a blank space also removes two panes.  A
+secondary color jumping over itself to itself removes four panes. Finally,
+jumping three tertiaries in a row removes six panes.  Obviously, the more times
+you jump three tertiaries, the fewer moves you will have to make.  Be careful,
+though -- it is quite easy to get stuck.  We suggest that you follow the
+following basic strategy the first few times you play:
+        First, remove all secondary colors from the four corners of the board.
+To do this, you should jump diagonally from the corner inwards into the board;
+jumping up, down, or sideways onto the edges leaves you with another problem,
+getting that secondary pane off of the edge.  Save your game when you get to
+this point, in case you get stuck later.
+        Second -- you saw this coming, right? -- get all the secondary colors
+away from the edges.  Try to jump them inwards over themselves whenever
+possible; as we said above, this will reduce your eventual move count.  If
+you have to, however, jump them with primaries.  If you see an easy way to
+line up three tertiaries, do it and then get rid of the remaining one.
+Continue to eliminate secondary colors and work inwards toward the center of
+the board.  Save your game again.
+        Third, when you are down to just a few primary colors in the center,
+try to find the most efficient way to work your way down to one.  Remember that
+you can recombine your primaries into secondaries and tertiaries and take off
+up to six in one swoop.  (Look out when you are taking off that last white
+pane, however -- the color left after you jump it will clash with the color
+you jumped it with, orphaning them both.)  Be careful of diagonal jumps that
+leave a pane hanging way out in empty space.  Also be careful that you don't
+wind up with several vertical rows that cannot be rejoined.
+        When you get down to a single pane, be SURE to save your game -- you'll
+want to come back and look at it later.  And DON'T save it under "MYGAME"; you
+will eventually muck up, overwrite it, and feel like slitting your wrists.
+Believe us; we speak from hard, cold, three-a.m. I-don't-believe-you-finally-
+did-it experience.
+        As of this writing, nobody has broken 67 moves on a randomly generated
+screen.  The theoretical upper limit is, of course, 107 moves.  Someone with
+bigger mathematical ambitions than ours will have to figure out what the lower
+limit is -- paging Doctor Matrix...  Doctor Matrix, white courtesy phone,
+please...
+        The record of 67 was set by Judy Ann Latting of Burton, MI, on the
+pre-tertiary version of Stained Glass; we include her game on this disk as
+"JUDYBEST".  The author has tied that record ("KENTBEST") using the new
+tertiary-color version.  We therefore expect that it will be fairly easy for
+someone to break 67 using tertiaries; if you do it, please SAVE YOUR GAME
+and send it to us for inclusion on the next release!
+
+    *** Our users speak out: commonly asked questions about Stained Glass ***
+
+        Q: Arrgh!  I can't get that stupid orange pane out of the corner!  How
+do I do it without lousing up the whole game? -- B. R., Boston
+        A: Dealing with secondary or tertiary colors in the corners of the
+board is hard because you can't jump over them.  You have to somehow get a
+tertiary pane or a pane of the same color over there next to the corner and
+jump from the corner inward, either by combining two primaries or jumping a
+secondary onto the right spot.  When you get there, try to jump from the
+corner diagonally towards the center of the board and not out onto the edge.
+        Q: Why does it say there are 108 panes left when anybody can see that
+there are 6 rows of 12, or 72? -- T. C., Taipei
+        A: Secondary colors (green, orange, and violet) are really two panes,
+one on top of the other.  There are 36 panes in primary colors plus 72 panes
+that are stacked on top of each other, for a grand total of 108.
+        Q: Why does it say that I removed 6 panes with my last move -- that's
+not possible, is it? -- A. A. B., Mountain View
+        A: Yes, it's possible.  No, this is not a dumb question.  Once again,
+secondary colors are really two panes stacked on top of each other -- when you
+jump an orange over another orange to land on a third orange, you remove two
+orange panes, which are each made up of one red and one yellow, for a total of
+four.  Tertiary colors are stacks of three panes; jumping three in a row
+removes six.
+        Q: Why isn't there a separate, spiffier version of Stained Glass for
+EGA, VGA, and MCGA adapters? -- J. B., Poughkeepsie
+        A: We chose to get the game out in a form that everybody with 256k
+and an adapter that can display the IBM extended character set could
+immediately run and enjoy.  We don't know about you, but we are PLENTY TIRED
+of being teased by games that can only be "truly enjoyed" on a 386 with a
+mouse, SoundBlaster, 80-meg hard drive, and a VGA monitor -- and come in a box
+with an airbrushed Amiga screen print on the front cover.  Okay, end of
+tirade...
+        Q: What if I can beat your 67-move score?  Do I win a prize?  How about
+a week in the Bahamas? -- B. R., Pinsk
+        A: Hah!  Who do you think we are, Activision?  Get serious.  We will,
+however, include your game as the all time greatest on our next release.  Just
+think:  finally, you have a chance -- maybe the only one you'll ever get -- to
+BE THE BEST IN THE WORLD at something!  Isn't that enough?
+        Q: I saw a commercial game called Tesserae at MacWorld that looked
+suspiciously like Stained Glass -- it is? -- C. B., Santa Clara
+        A: Yup.  Our blood brother Nick Schlott -- the hardest-working Mac
+programmer in the civilized universe -- originally converted it over for his
+own use, released it as shareware with our blessing, and then busted his tiny
+little hump spiffing it up for commercial release.  The Mac version is VERY
+impressive -- there are nine different boards, three levels of difficulty,
+and the panes jump out at you and flip end-over-end around the board! If you
+or a friend has a Macintosh of any description, check with your dealer or
+contact In-Line Design at (203) 364-0063.  (This is how classy these guys
+are:  not only did they refrain from bitching about Stained Glass already
+having been released as shareware, they sent FREE copies of the commercial
+release to all of Nick's registered users!  Outstanding!  [Sorry, non-
+registered Mac users -- this deal is long dead...])
+    And hey, while we're talking Tesserae, the Windows version is now
+out and running.  Call In-Line for details!
+        Q: Why are you GIVING AWAY source code???  That's _CRAZY_ -- you
+should be getting at least a hundred bucks for it! -- D. G., via CompuServe
+        A: First, of course, we hope to snow a few more people than normal
+into sending us their money.  (One more time -- WE ARE DOING THIS FOR THE
+MONEY.  We love meeting new people and hearing compliments, but WE CANNOT
+CONTINUE DOING THIS IF NOBODY SENDS US ANY MONEY!)  Second, we are not
+convinced that ANY computer game -- be it Populous or Wing Commander or
+SimEarth -- is worth more than a good book.  Shipping source code is the
+only way we can prove that our attitude is more than a pose.  And third, we
+wish that somebody had been doing this when we were getting started.  We
+would have made far fewer dumb mistakes.  And last, we are slowly but surely
+writing a book on QuickBASIC games that we hope you will all buy.
+        Q: Who is Annalisa, anyway? -- M. D., Ocho Rios
+        A: She was the programmer's daughter, to whom he dedicates this effort.
+He wishes he could have known her a little bit longer.
+
